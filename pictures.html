@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html>  
+    <head>    
+        <meta charset="utf-8">    
+        <title>Welcome to my picture gallery!</title> 
+        <style>
+                .center {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 50%;
+                }
+                h1{
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                }
+                ul {
+                  list-style-type: none;
+                  margin: 0;
+                  padding: 0;
+                  overflow: hidden;
+                  background-color: #333;
+                }
+                
+                li {
+                  float: left;
+                }
+                
+                li a {
+                  display: block;
+                  color: white;
+                  text-align: center;
+                  padding: 14px 16px;
+                  text-decoration: none;
+                }
+                
+                li a:hover:not(.active) {
+                  background-color: #111;
+                }
+                
+                .active {
+                  background-color: #4CAF50;
+                }
+                </style> 
+    </head>  
+<body>
+        <ul>
+                <li><a href="info">Info</a></li>
+                <li><a href="pictures">Pictures</a></li>
+                <li><a href="data">Data</a></li>
+                <li style="float:right"><a class="active" href="/">Home</a></li>
+            </ul> 
+    <h1>Here you can view all my fabulous pets</h1>
+    <p>Catte</p>
+    <img src="http://media1.santabanta.com/full1/Animals/Cats/cats-149a.jpg" alt="This is Catte, he likes to lick things" width=500 height=500 class="center">
+
+    <p>Catorz</p>
+    <img src="https://i.kym-cdn.com/entries/icons/original/000/002/232/bullet_cat.jpg" alt="Catorz can fly" width=500 height=500 class="center">
+
+
+</body> 
+</html>
