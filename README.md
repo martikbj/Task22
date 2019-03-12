@@ -1,6 +1,5 @@
 # Task22
+Here lies the code for:
 
 https://node-martin.herokuapp.com/
-(Best appreciated with sound)
 
-https://github.com/martikbj/Task22
